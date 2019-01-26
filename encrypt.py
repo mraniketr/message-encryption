@@ -43,8 +43,7 @@ elif ch==2:
 elif ch==3: 
     #base64 encoding3 
     #https://docs.python.org/2/library/base64.html
-    encoded_data = base64.b64encode('Encode this text')
-    print("Encoded text with base 64 is")
+    encoded_data = base64.b64encode(msg.encode())
     print(encoded_data)
 else:
     print(1)
