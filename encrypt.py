@@ -1,6 +1,6 @@
-from reversecipher import *
-from transpostion import *
-from basesix4 import *
+from files.reversecipher import *
+from files.transpostion import *
+from files.basesix4 import *
 
 print ("input message")
 msg=input()
